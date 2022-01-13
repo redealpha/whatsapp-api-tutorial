@@ -40,6 +40,8 @@ const client = new Client({
   restartOnAuthFail: true,
   puppeteer: {
     headless: true,
+    /*Send GIF's and/or Videos */
+    executablePath: 'path/your/googlechrome',
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',
